@@ -7,4 +7,5 @@ Assumptions and Noted:
 - Student selection form asks for top 5 preferred projects, top 3 preferred Subject Areas, and top 3 preferred Project Types.
 
 TODO:
-[ ] Adjust ranking value if students don't give exactly 5 Preferred Topics, 3 Subject Areas and 3 project Types.
+
+- [ ] Adjust ranking value if students don't give exactly 5 Preferred Topics, 3 Subject Areas and 3 project Types.
