@@ -12,11 +12,14 @@ This Jupyter Notebook takes the spreadsheet of Topic, Subject Area and Project T
 - Student selection form asks for top 5 preferred projects, top 3 preferred Subject Areas, and top 3 preferred Project Types.
 
 TODO:
-- [ ] Possible: Adjust ranking value if students don't give exactly 5 Preferred Topics, 3 Subject Areas and 3 project Types.
+- [ ] Not crticial: Adjust ranking value if students don't give exactly 5 Preferred Topics, 3 Subject Areas and 3 project Types.
+- [ ] Add example MS Form 
 
 ## Allocation-Reporting:
 
 This Jupyter Notebook takes the result spreadsheet from the allocation optimiser *pdn_project_allocation* and creates the final allocation and summary statistics spreadsheets that are shared with students and project supervisors.
 
 TODO:
-- [ ] Everything :)
+- [ ] Check one last time that it's working.
+- [ ] Currently requires the output file exists. It would be best if it could just be created on demand (using 'open()' function?)
+- [ ] Currently statistics are not exported. TBD.
