@@ -21,5 +21,5 @@ This Jupyter Notebook takes the result spreadsheet from the allocation optimiser
 
 TODO:
 - [ ] Check one last time that it's working.
-- [ ] Currently requires the output file exists. It would be best if it could just be created on demand (using 'open()' function?)
-- [ ] Currently statistics are not exported. TBD.
+- [X] Currently requires the output file exists. It would be best if it could just be created on demand (using 'open()' function?)
+- [X] Add statistics sheet.
