@@ -29,7 +29,7 @@ TODO:
 
 This Jupyter Notebook takes the result spreadsheet from the allocation of Readers to each student/project (currently done manually) and outputs statistics about the number of times each supervisor is 1st reader (supervisor) and 2nd Reader. This enables the course organiser to assess whether some readers have been over or under-allocated.
 
-## Overall:
+## General TODO:
 
 - [ ] Automate the Reader Allocation process
 - [ ] Ensure all the files are outputted in one place in a logical naming/order.
