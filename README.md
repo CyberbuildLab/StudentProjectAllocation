@@ -1,4 +1,4 @@
-# Student (Thesis) Project Allocation Data Preparation
+# Student (Thesis) Project Allocation
 This project contains Jupyter Notebooks to:
 1. Prepare data for allocating students to projects using the allocation optimiser *pdn_project_allocation* (from https://github.com/RudolfCardinal/pdn_project_allocation);
 2. Report the final Student-Project allocations in Excel spreadsheets suitable for sharing with students and project supervisors.
