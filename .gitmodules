@@ -1,0 +1,3 @@
+[submodule "pdn_project_allocation"]
+	path = pdn_project_allocation
+	url = https://github.com/RudolfCardinal/pdn_project_allocation
