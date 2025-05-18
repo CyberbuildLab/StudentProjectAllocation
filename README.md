@@ -29,7 +29,7 @@ This Jupyter Notebook takes the result spreadsheet from the allocation of Reader
 ## TODO:
 - [x] Check one last time that the process for conducting the optimisation and reporting its results works correctly
 - [x] Ensure all the files are outputted in one place in a logical naming/order.
-- [ ] Add example MS Form used to obtain student preferences.
+- [ ] Add `Example Data\` folder including all Input spreadsheets.
 - [ ] Adjust ranking value if students don't give exactly 5 Preferred Topics, 3 Subject Areas and 3 project Types (not critical)
 - [ ] Automate the Reader Allocation process
 - [ ] Convert Jupyter Notebooks into simple Python scripts (?)
