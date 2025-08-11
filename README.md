@@ -32,4 +32,4 @@ This Jupyter Notebook takes the result spreadsheet from the allocation of Reader
 - [ ] Add `Example Data\` folder including all Input spreadsheets.
 - [ ] Adjust ranking value if students don't give exactly 5 Preferred Topics, 3 Subject Areas and 3 project Types (not critical)
 - [ ] Automate the Reader Allocation process
-- [ ] Convert Jupyter Notebooks into simple Python scripts (?)
+- [ ] (optional) Convert Jupyter Notebooks into simple Python scripts
