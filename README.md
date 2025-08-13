@@ -33,7 +33,10 @@ This Jupyter Notebook takes the output spreadsheet of step 2 (`./O2_Output.xlsx`
 1. The final project allocation data spreadsheet that is shared with the students and supervisors (`./O3_Output.xlsx`).
 2. The final project allocation data and summary statistics spreadsheet for internal user (`./O3_Output_Internal.xlsx`).
 
-## Readers-Reporting
+## Readers-Allocation:
+This Jupyter Notebook takes the list of supervisors and the allocated projects, and then allocate second readers so that the overall load of all supervisors is balanced as much as possible and 2nd readers are allocated topics that fall in their Subject Areas of interest. 
+
+## Readers-Reporting (to be merged with previous one):
 This Jupyter Notebook takes the result spreadsheet from the allocation of Readers to each student/project (currently done manually) and outputs statistics about the number of times each supervisor is 1st reader (supervisor) and 2nd Reader. This enables the course organiser to assess whether some readers have been over or under-allocated.
 
 ## TODO:
@@ -42,5 +45,6 @@ This Jupyter Notebook takes the result spreadsheet from the allocation of Reader
 - [x] Merge student-related spreadsheet into one spreadsheet (with multiple tabs) and same for supervisor spreadsheet. This way, the input will include just 3 spreadsheets.
 - [ ] Add `Example Data\` folder including all Input spreadsheets.
 - [ ] Adjust ranking value if students don't give exactly 5 Preferred Topics, 3 Subject Areas and 3 project Types (not critical)
-- [ ] Automate the Reader Allocation process
+- [ ] Automate the Reader Allocation process (initiated)
+- [ ] Merge Readers-Reporting notebook into Readers-Allocation notebook
 - [ ] (optional) Convert Jupyter Notebooks into simple Python scripts
