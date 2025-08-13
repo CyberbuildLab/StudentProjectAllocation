@@ -5,7 +5,17 @@ This project contains:
 3. Jupyter Notebook to report Reader allocation (supervisor and 2nd reader) statistics calculated from the Reader-Student/Project allocation (which is currently done manually).
 
 ## Allocation-Preparation:
-This Jupyter Notebook takes the spreadsheet lists of Students, Topic, Supervisors, Student Preferences (exported from an MS form), and Supervisor preferences. The notebook produces the `01_Output.xlsx` containing the input data required for running the allocation optimiser *pdn_project_allocation*.
+This Jupyter Notebook takes as input:
+- **Student data** spreadsheet containing 3 tabs: 
+    - *Students*
+    - *Student_preferences* (exported from an MS Form,), 
+    - *Student_selfproposals* (only used for the Allocation reporting below)
+- **Topic data** spreadsheet containing 1 tab:
+    - *Topics* with the following columns: Code, Title, Supervisor, Subject Area, Research Type, Level, Max. Students
+- **Supervisor data** spreadsheet containing 2 tabs:
+    - *Supervisors*
+    - *Supervisors_preferences*. 
+The notebook produces the `01_Output.xlsx` containing the input data required for running the allocation optimiser *pdn_project_allocation*.
 
 The *pdn_project_allocation* optimiser should be rung as follows (assuming it is run from the the folder containing `./O1_Output.xlsx`:
 
@@ -29,6 +39,7 @@ This Jupyter Notebook takes the result spreadsheet from the allocation of Reader
 ## TODO:
 - [x] Check one last time that the process for conducting the optimisation and reporting its results works correctly
 - [x] Ensure all the files are outputted in one place in a logical naming/order.
+- [x] Merge student-related spreadsheet into one spreadsheet (with multiple tabs) and same for supervisor spreadsheet. This way, the input will include just 3 spreadsheets.
 - [ ] Add `Example Data\` folder including all Input spreadsheets.
 - [ ] Adjust ranking value if students don't give exactly 5 Preferred Topics, 3 Subject Areas and 3 project Types (not critical)
 - [ ] Automate the Reader Allocation process
