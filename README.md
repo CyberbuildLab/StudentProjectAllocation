@@ -1,8 +1,9 @@
 # Student (Thesis) Project Allocation
 This project contains:
 1. Jupyter Notebook to prepare data for optimising the allocation of students to projects using the optimiser *pdn_project_allocation* (from https://github.com/RudolfCardinal/pdn_project_allocation) to optimally assign projects to students;
-2. Jupyter Notebook to report the final Student-Project allocations in Excel spreadsheets suitable for sharing with students and project supervisors.
-3. Jupyter Notebook to optimise Reader allocation (supervisor and 2nd reader) and report the results and statistics.
+2. Jupyter Notebook to report the automatically obtained Student-Project allocations in Excel spreadsheets suitable for sharing with students and project supervisors.
+3. Jupyter Notebook to report the final Student-Project allocations alongside summary statistics in Excel spreadsheets for internal use by the Course Organiser.
+4. Jupyter Notebook to optimise Reader allocation (supervisor and 2nd reader) and report the results and statistics.
 
 ## Allocation-Preparation:
 This Jupyter Notebook takes as input:
@@ -30,9 +31,11 @@ pdn_project_allocation.exe --output .\02_Output.xlsx .\01_Output.xls
 - The Student Preferences selection form asks for top 5 preferred Topics, top 3 preferred Subject Areas, and top 3 preferred Project Types.
 
 ## Allocation-Reporting:
-This Jupyter Notebook takes the output spreadsheet of step 2 (`./O2_Output.xlsx`) and creates:
-1. The final project allocation data spreadsheet that is shared with the students and supervisors (`./O3_Output.xlsx`).
-2. The final project allocation data and summary statistics spreadsheet for internal user (`./O3_Output_Internal.xlsx`).
+This Jupyter Notebook takes the output spreadsheet of step 2 (`./O2_Output_yymmdd-hhmmss.xlsx`) and creates the final project allocation data spreadsheet that is shared with the students and supervisors (`./O3_Output_yymmdd-hhmmss.xlsx`).
+
+## Allocation-Statistics:
+This Jupyter Notebook takes the output spreadsheet of step 3 (`./O3_Output_yymmdd-hhmmss.xlsx`)  as well as the list of Topics and the list of Supervisors, and creates the final project allocation data and summary statistics spreadsheet for internal use (`./O4_Output_yymmdd-hhmmss.xlsx`).
+**NOTE**: Step 4 is not integrated in Step 3 because the output spreadsheet of step 3 (`./O3_Output_yymmdd-hhmmss.xlsx`) may be adjusted manually by the Course Organiser to reflect some request for reallocation.
 
 ## Readers-Allocation:
 This Jupyter Notebook takes the list of supervisors and the allocated projects, and then allocate second readers so that the overall load of all supervisors is balanced as much as possible and 2nd readers are allocated topics that fall in their Subject Areas of interest. 
@@ -46,4 +49,4 @@ The Jupyter Notebook outputs both the final reader allocations and supervisor+2n
 - [x] Merge Readers-Reporting notebook into Readers-Allocation notebook
 - [ ] Add `Example Data\` folder including all Input spreadsheets.
 - [ ] (optional) Adjust ranking value if students don't give exactly 5 Preferred Topics, 3 Subject Areas and 3 project Types (not critical)
-- [ ] - [ ] (optional) Convert Jupyter Notebooks into simple Python scripts
+- [ ] (optional) Convert Jupyter Notebooks into simple Python scripts
